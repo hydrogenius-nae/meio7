@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.meio7
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*Up*/
+.meio7-item-centro a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.meio7-border
+{
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
+/*Fim Up*/
+
+/*Noticias*/
+.meio7-flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.meio7-flex a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.meio7-JBS
+{
+    margin: 10px;
+    width: 390px;
+    height: 260px;
+    background: url(JBS-DOSSIE-1.webp);
+}
+
+.meio7-Guerra
+{
+    margin: 10px;
+    width: 390px;
+    height: 260px;
+    background: url(Guerra-Civil_Diamond-Films-5.webp);
+}
+
+.meio7-Mercado
+{
+    margin: 10px;
+    width: 390px;
+    height: 260px;
+    background: url(GettyImages-CA31593.webp);
+}
+
+.meio7-text
+{
+    margin-top: 38%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400px;
+}
+/*Fim Noticias*/
