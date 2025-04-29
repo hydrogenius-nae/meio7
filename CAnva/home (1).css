@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.botao {
+    display: inline-block; /* Para permitir espaçamento e manipulação com outras propriedades */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o underline do link */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse */
+    
+}
+
+.botao:hover {
+    background-color: #3e8e41; /* Cor ao passar o mouse */
+}
+
+.nav {
+    cursor: pointer;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #3e8e41;
+}
